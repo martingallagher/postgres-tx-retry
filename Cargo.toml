@@ -1,8 +1,12 @@
 [package]
 name = "postgres-tx-retry"
+description = "Transaction retry helpers for PostgreSQL compatibale databases"
+license = "MIT"
 version = "0.0.1"
 authors = ["Martin Gallagher <martin@praegressus.com>"]
 edition = "2021"
+keywords = ["postgres", "postgresql", "cockroachdb"]
+exclude = [".github"]
 
 [package.metadata.docs.rs]
 features = ["sync"]
