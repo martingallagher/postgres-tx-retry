@@ -1,9 +1,9 @@
-# PostgreSQL CockroachDB Async Transaction Retries
+# PostgreSQL / CockroachDB Async Transaction Retries for Rust
 
 Asynchronous and synchronous Postgres protocol transaction retries.
 
-Providing a mechanism for serialized transactions retries for PostgresSQL
-compatible databases.
+Providing a mechanism for serialized transaction retries for PostgresSQL
+compatible databases in Rust.
 
 ## Error Type Requirements
 

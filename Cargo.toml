@@ -2,7 +2,7 @@
 name = "postgres-tx-retry"
 description = "Transaction retry helpers for PostgreSQL compatibale databases"
 license = "MIT"
-version = "0.0.2"
+version = "0.0.3"
 authors = ["Martin Gallagher <martin@praegressus.com>"]
 edition = "2021"
 keywords = ["postgres", "postgresql", "cockroachdb"]
