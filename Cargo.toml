@@ -1,0 +1,22 @@
+[package]
+name = "postgres-tx-retry"
+version = "0.0.1"
+authors = ["Martin Gallagher <martin@praegressus.com>"]
+edition = "2021"
+
+[package.metadata.docs.rs]
+features = ["sync"]
+
+[dependencies]
+deadpool = { version = "0.9", optional = true }
+deadpool-postgres = { version = "0.10", optional = true }
+postgres = { version = "0.19", optional = true }
+r2d2 = { version = "0.8", optional = true }
+r2d2_postgres = { version = "0.18", optional = true }
+tokio = { version = "1", features = ["rt-multi-thread"], optional = true }
+tokio-postgres = { version = "0.7", optional = true }
+
+[features]
+default = ["async"]
+async = ["deadpool", "deadpool-postgres", "tokio-postgres"]
+sync = ["postgres", "r2d2", "r2d2_postgres", "tokio"]
