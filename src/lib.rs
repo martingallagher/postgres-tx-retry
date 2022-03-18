@@ -1,5 +1,6 @@
 #![warn(missing_docs)]
 #![deny(warnings, clippy::pedantic, clippy::nursery, unused_crate_dependencies)]
+#![allow(clippy::future_not_send)]
 
 //! Asynchronous and synchronous Postgres protocol transaction retries.
 //!
