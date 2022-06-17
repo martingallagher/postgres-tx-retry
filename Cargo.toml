@@ -1,6 +1,6 @@
 [package]
 name = "postgres-tx-retry"
-description = "Transaction retry helpers for PostgreSQL compatibale databases"
+description = "Transaction retry helpers for PostgreSQL compatible databases"
 license = "MIT"
 version = "0.0.3"
 authors = ["Martin Gallagher <martin@praegressus.com>"]
